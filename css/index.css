@@ -36,6 +36,21 @@ h2, h3 {
 	background: white;	
 	padding-bottom: 50px;
 }
+
+@media (max-width: 767px) {
+	body {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#main {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.navbar-inner {
+	}
+
+}
+
 #nabar-offset {
 	height: 50px;
 }
