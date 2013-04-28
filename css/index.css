@@ -22,6 +22,7 @@ h2, h3 {
 	text-align: center;
 	color: white;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+	padding-top: 30px;
 }
 #welcome-blurb h1 {
 	text-transform: uppercase;
@@ -35,20 +36,6 @@ h2, h3 {
 #main {
 	background: white;	
 	padding-bottom: 50px;
-}
-
-@media (max-width: 767px) {
-	body {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-	#main {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.navbar-inner {
-	}
-
 }
 
 #nabar-offset {
@@ -118,4 +105,27 @@ h2, h3 {
 	font-weight: 300;
 	line-height: 1;
 	letter-spacing: -1px;
+}
+
+/* Adjust it for smaller sizes */
+@media (max-width: 767px) {
+	body {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#main {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.navbar {
+		padding: 0px 20px;
+	}
+
+	#welcome-blurb {
+		padding-top: 0px;
+	}
+
+	#nabar-offset {
+		height: 0px;
+	}
 }
