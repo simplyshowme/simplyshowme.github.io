@@ -56,8 +56,9 @@
 
 <div id="main">
 	<div class="container">
-		<a name="features"></a>
+		
 		<div class="section-title">
+			<a name="features"></a>
 			<h1>Features</h1>
 		</div>
 
@@ -148,5 +149,16 @@
 
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		$(".nav a").click(function(evt) {
+			evt.stopPropagation();
+			evt.preventDefault();
+
+			$(".nav a").parent().removeClass("active");
+			$(this).parent().addClass("active");
+
+			$("body").animate({scrollTop: $("[name=\""+$(this).attr("href").replace(/#/,'')+"\"]").offset().top - 40}, 500);
+		});
+	</script>
 	</body>
 </html>
