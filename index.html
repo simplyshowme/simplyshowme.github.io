@@ -1,29 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SimplyShowMe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-  </head>
-  <body>
-  	<div class="container">
-      <div class="masthead">
-		<ul class="nav nav-pills pull-right">
-		  <li class="active"><a href="#">Home</a></li>
-		  <li><a href="#">Features</a></li>
-		  <li><a href="#">Team</a></li>
-		  <li><a href="#">Contact</a></li>
-		</ul>
-      </div>
+	<head>
+		<title>SimplyShowMe</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+	</head>
+	<body>
+		
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="brand" href="./index.html">SimplyShowMe</a>
+			<ul class="nav pull-right">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Team</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 
-      <div class="jumbotron">
-      </div>
-      <h1>Welcome to Simply Show Me</h1>
-      <img src="img/iphone_with_ssm_01.png" />
-    </div>
+<div id="nabar-offset"></div>
 
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+<div class="container">
+	<a name="home"></a>
+	<div class="row">
+		<div id="welcome-blurb" class="span6">
+			<h1>Is it hard to explain your expertise using text?</h1>
+			<p>
+				How do you explain a <em>golf swing</em>, a 
+				<em>Pilates stretch</em> or a 
+				<em>air squat</em> using text?
+			</p>
+			<p class="smaller">
+				We make it easier for an expert to convey their knowledge to
+				their clients by allowing them to quickly compose <em>video-centric</em>
+				messages.
+			</p>
+		</div>
+		<div class="span6">
+			<img src="img/iphone_with_ssm_01.png" />
+		</div>
+	</div>
+</div>
+
+<div id="main">
+	<div class="container">
+		<a name="features"></a>
+		<div class="section-title">
+			<h1>Features</h1>
+		</div>
+
+		<div class="featurette">
+			<img class="featurette-image pull-right" src="img/iphone_with_ssm_01.png" />
+			<h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+		</div>
+		<hr class="featurette-divider">
+		<div class="featurette">
+			<img class="featurette-image pull-left" src="img/iphone_with_ssm_01.png" />
+			<h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+		</div>
+		<hr class="featurette-divider">
+		<div class="featurette">
+			<img class="featurette-image pull-right" src="img/iphone_with_ssm_01.png" />
+			<h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
+			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<a name="team"></a>
+		<div class="section-title">
+			<h1>The Team</h1>
+		</div>
+		<div class="row centered">
+			<div class="span3">
+				<img class="img-circle" src="img/team_torben.png">
+				<h2>Torben</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			</div><!-- /.span3 -->
+			<div class="span3">
+				<img class="img-circle" src="img/team_torben.png">
+				<h2>Torben</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			</div><!-- /.span3 -->
+			<div class="span3">
+				<img class="img-circle" src="img/team_torben.png">
+				<h2>Torben</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			</div><!-- /.span3 -->
+			<div class="span3">
+				<img class="img-circle" src="img/team_torben.png">
+				<h2>We're hiring!</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			</div><!-- /.span3 -->
+		</div>
+	</div>
+</div>
+
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
 </html>

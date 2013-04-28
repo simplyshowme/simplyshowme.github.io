@@ -1,7 +1,82 @@
 
-img {
-	max-width: 100%;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+	background: url(../img/bg.jpg) fixed no-repeat;
+	background-size: 100% auto;
+	font-weight: lighter;
 }
-#nav-padding {
-	height: 60px;
+h1 {
+	font-size: 140%;
+}
+.smaller {
+	font-size: 80%;
+}
+.centered {
+	text-align: center;
+}
+#welcome-blurb {
+	font-size: 18pt;
+	line-height: 1.3em;
+	text-align: center;
+	color: white;
+}
+#welcome-blurb h1 {
+	text-transform: uppercase;
+	font-size: 24pt;
+}
+#welcome-blurb > * {
+	padding: 20px 0;
+}
+
+
+#main {
+	background: white;	
+}
+#nabar-offset {
+	height: 50px;
+}
+.section-title {
+	margin: 20px 0 40px 0;
+	text-align: center;
+}
+.section-title h1 {
+	background: #e54e19;
+	display: inline-block;
+	padding: 0 35px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#home.section {
+	background: none;
+	padding-bottom: 0px;
+}
+
+.featurette-divider {
+	margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+	padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+	overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+	margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
 }
