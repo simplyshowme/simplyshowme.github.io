@@ -10,18 +10,18 @@ body {
 h1 {
 	font-size: 140%;
 }
+h2, h3 {
+	font-weight: normal;
+}
 .smaller {
 	font-size: 80%;
-}
-.centered {
-	text-align: center;
 }
 #welcome-blurb {
 	font-size: 18pt;
 	line-height: 1.3em;
 	text-align: center;
 	color: white;
-	text-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }
 #welcome-blurb h1 {
 	text-transform: uppercase;
@@ -34,6 +34,7 @@ h1 {
 
 #main {
 	background: white;	
+	padding-bottom: 50px;
 }
 #nabar-offset {
 	height: 50px;
@@ -43,12 +44,34 @@ h1 {
 	text-align: center;
 }
 .section-title h1 {
-	background: #e54e19;
+	background: rgb(26, 153, 62);
 	display: inline-block;
 	padding: 0 35px;
 	text-transform: uppercase;
 	color: #fff;
 }
+
+.team {
+	text-align: center;
+}
+.team h2 {
+	font-size: 16pt;
+}
+.team h3 {
+	font-size: 10pt;
+	line-height: 1em;
+	padding-bottom: 5px;
+}
+
+.contact {
+	text-align: center;
+	font-size: 130%;
+	line-height: 1.6em;
+}
+.contact p {
+	padding-bottom: 20px;
+}
+
 
 #home.section {
 	background: none;
