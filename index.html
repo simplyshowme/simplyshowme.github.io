@@ -162,15 +162,16 @@
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>
-	$(".nav a").click(function(evt) {
-		evt.stopPropagation();
-		evt.preventDefault();
+	// todo: reinstate this once its been made to work with all browsers
+	// $(".nav a").click(function(evt) {
+	// 	evt.stopPropagation();
+	// 	evt.preventDefault();
 
-		$(".nav a").parent().removeClass("active");
-		$(this).parent().addClass("active");
+	// 	$(".nav a").parent().removeClass("active");
+	// 	$(this).parent().addClass("active");
 
-		$("body").animate({scrollTop: $("[name=\""+$(this).attr("href").replace(/#/,'')+"\"]").offset().top - 40}, 500);
-	});
+	// 	$("body").animate({scrollTop: $("[name=\""+$(this).attr("href").replace(/#/,'')+"\"]").offset().top - 40}, 500);
+	// });
 </script>
 
 	</body>
