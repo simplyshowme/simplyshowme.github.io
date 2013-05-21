@@ -13,6 +13,9 @@ h1 {
 h2, h3 {
 	font-weight: normal;
 }
+.anchor {
+	display:inline-block;
+}
 .smaller {
 	font-size: 80%;
 }
