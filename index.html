@@ -6,6 +6,7 @@
 		<!-- Bootstrap -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/lightbox.css" rel="stylesheet" />
 		<link href="css/index.css" rel="stylesheet">
 	</head>
 	<body>
@@ -23,6 +24,7 @@
 			<div class="nav-collapse collapse">
 				<ul class="nav">
 					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#description">Description</a></li>
 					<li><a href="#features">Features</a></li>
 					<li><a href="#team">Team</a></li>
 					<li><a href="#contact">Contact</a></li>
@@ -39,56 +41,133 @@
 
 <div class="container">
 	
-	<div class="row">
-		<div id="welcome-blurb" class="span6">
-			<h1>Is it hard to share your expertise using email, blogs and other notes?</h1>
-			<p>
-				How do you explain a <strong>golf swing</strong>, a <strong>Pilates stretch</strong>, a <strong>workout routine</strong> or basic <strong>exercises</strong>?
-			</p>
-			<p class="smaller">
-				SimplyShow.me allows experts to create rich <strong>video and multimedia</strong> training material in seconds.
-			</p>
+	<div class="row" id="blurb">
+		<a target="_blank" href="https://itunes.apple.com/us/app/simplyshow.me/id681013228">
+			<img src="img/app-store.png" />
+		</a>
+		<div class="span6 offset3">
+<h1>
+	Simply<em>Show</em>.me
+</h1>
+<p>
+	A video service that allows professionals to share their expertise privately
+</p>
 		</div>
-		<div class="span6">
-			<img src="img/iphone_with_ssm_01.png" />
-		</div>
+		<div id="phone" class="hidden-phone">
+			<video loop autoplay>
+	  			<source src="img/welcome.mp4" type="video/mp4">
+	  		</video>
+			<img src="img/iphone-frame.png" />
+	  	</div>
 	</div>
 </div>
 
 <div id="main">
-	<div class="container">
-		
+	<div class="container" id="description">
+		<br><br>
+		<a class="anchor" name="description"></a>
+		<div class="section-title">
+			<h1>What is SimplyShow.me?</h1>
+		</div>
+
+		<div class="row">
+			<div class="span6 offset1">
+<p>
+SimplyShow.me allows a business or professional to engage clients in a compelling, convenient and private fashion. With SimplyShow.me, sharing and monetising your knowledge is as simple as pressing 'Record'.
+</p>
+<p>
+SimplyShow.me is built as a video messaging service, allowing professionals, teachers and instructors of any discipline to create and share informative video messages with their clients or students, direct to their smart phones. What sets SimplyShow.me apart from other video services is its privacy. Professionals have complete control over who can view their content, allowing them to protect their intellectual property. From the client's perspective, it provides a safe way for them to seek and receive advice from their professional.
+</p>
+<p id="screenshots">
+<a href="img/app/01.jpg" data-lightbox="roadtrip"><img src="img/app/thumb/01.jpg" /></a>
+<a href="img/app/02.jpg" data-lightbox="roadtrip"><img src="img/app/thumb/02.jpg" /></a>
+<a href="img/app/03.jpg" data-lightbox="roadtrip"><img src="img/app/thumb/03.jpg" /></a>
+<a href="img/app/04.jpg" data-lightbox="roadtrip"><img src="img/app/thumb/04.jpg" /></a>
+<a href="img/app/04.jpg" data-lightbox="roadtrip"><img src="img/app/thumb/05.jpg" /></a>
+</p>
+<h1>Is This For You?</h1>
+<p>
+SimplyShow.me is well suited to both small and large business, from sole traders with little technical background looking to further break into the market to multinational corporations seeking a modern and effective means of reaching their customers.
+</p>
+<p>
+Examples of clients currently using SimplyShow.me include golf instructors, personal trainers and Pilates instructors.
+</p>		
+
+			</div>
+			<div class="span4">
+<ul>
+	<li>
+<img src="img/icon-private.jpg" />
+<h3>Private.</h3> 
+SimplyShow.me lets you control who can see your content, allowing you to protect your knowledge.
+	</li>
+	<li>
+<img src="img/icon-complete.jpg" />
+<h3>Contained.</h3> 
+You are provided everything in one, convenient solution. In just minutes you can record great video content and engage your clients in discussion.
+	</li>
+	<li>
+<img src="img/icon-convenient.jpg" />
+<h3>Convenient.</h3> 
+Content can be produced and consumed at a time most convenient to the user, catering to busy lifestyles.
+	</li>
+	<li>
+<img src="img/icon-affordable.jpg" />
+<h3>Affordable.</h3> 
+Only pay for what you use. You are charged only per number of clients you have.
+	</li>
+	<li>
+<img src="img/icon-accessible.jpg" />
+<h3>Accessible.</h3>
+The system is available via both on the web and mobile devices.
+	</li>
+</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container features">
+		<hr class="featurette-divider">
+
 		<a class="anchor" name="features"></a>
 		<div class="section-title">
-			<h1>Features</h1>
+			<h1>Features:</h1>
 		</div>
 
-		<div class="featurette">
-			<img class="featurette-image pull-right img-circle" src="img/features_library.png" />
-			<h2 class="featurette-heading">Catalogue your expertise. <span class="muted">Capture once, use hundreds of times.</span></h2>
-			<p class="lead">
-				Tired of writing the same information over and over? With SimplyShow.me you can create a library of
-				video and multimedia content which you can reuse again and again.
-			</p>
+		<div class="row features">
+			<div class="span3">
+				<img class="img-circle" src="img/feature-easy-as-video.png" />
+				<h2>As Simple as Video</h2>
+				<p>
+					Bring your company into this technological era with a business solution that everyone can use. You just need to know how to press record and play.
+				</p>
+			</div>
+			<div class="span3">
+				<img class="img-circle" src="img/feature-catalogue.png" />
+				<h2>Capture Once, Reuse Forever</h2>
+				<p>
+					Tired of repeating yourself? With SimplyShow.me you can catalogue your expertise as videos and quickly reuse it between clients.
+				</p>
+			</div>
+			<div class="span3">
+				<img class="img-circle" src="img/feature-engage.png" />
+				<h2>Engage Many One-On-One</h2>
+				<p>
+					All communication on SimpyShow.me occurs one-on-one, even when initiated on mass. Your clients do not feel spammed, while you remain productive.
+				</p>
+			</div>
+			<div class="span3">
+				<img class="img-circle" src="img/feature-branding.png" />
+				<h2>Customizable</h2>
+				<p>
+					The SimplyShow.me app is completely re-themeable, ensuring your clients receive your familiar branded experience.
+				</p>
+			</div>
 		</div>
-		<hr class="featurette-divider">
-		<div class="featurette">
-			<img class="featurette-image pull-left img-circle" src="img/features_compose.png" />
-			<h2 class="featurette-heading">Create rich messages in seconds. <span class="muted">Just drag and drop.</span></h2>
-			<p class="lead">
-				Using SimplyShow.me you can create and share a training session in just minutes that includes rich multimedia and video content.
-			</p>
-		</div>
-		<hr class="featurette-divider">
-		<div class="featurette">
-			<img class="featurette-image pull-right img-circle" src="img/features_feedback.png" />
-			<h2 class="featurette-heading">Empower your clients. <span class="muted">Deliver tailored training and feedback.</span></h2>
-			<p class="lead">
-				SimplyShow.me allows your clients to ask you questions and share their progress, giving you an opportunity to interact with them and provide
-				tailored training and advice.
-			</p>
-		</div>
+	</div>
 
+	<div class="container">
 		<hr class="featurette-divider">
 
 		<a class="anchor" name="team"></a>
@@ -169,6 +248,7 @@
 </script>
 
 <script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>
 	// todo: reinstate this once its been made to work with all browsers
