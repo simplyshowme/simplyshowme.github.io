@@ -132,6 +132,9 @@ h2, h3 {
 	#nabar-offset {
 		height: 0px;
 	}
+	#blurb h1 {
+		font-size: 20pt;
+	}
 }
 
 
@@ -176,7 +179,7 @@ h2, h3 {
 }
 #blurb h1 {
 	font-weight: 100;
-	font-size: 36pt;
+	font-size: 30pt;
 	margin-bottom: 0;
 	padding: 1em 0 0.5em 0;
 }
