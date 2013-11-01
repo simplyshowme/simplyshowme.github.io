@@ -145,7 +145,7 @@ h2, h3 {
 }
 
 .features img {
-	max-width: 200px;
+	max-width: 240px;
 }
 
 .features h2 {
@@ -255,11 +255,15 @@ h2, h3 {
 
 #screenshots {
 	text-align: center;
-	padding: 1em;
+	padding: 0em 0em 1em;
 }
 #screenshots img {
-	border: 1px solid #555;
-	padding: 3px;
+	border: 1px solid #ddd;
+	padding: 1px;
 	margin: 5px;
-	width: 60px;
+	width: 86px;
+}
+
+.lb-image{
+	max-width: inherit;
 }
