@@ -32,9 +32,13 @@ h2, h3 {
 	text-transform: uppercase;
 	font-size: 24pt;
 }
-#welcome-blurb > * {
-	padding: 20px 0;
+.store-link {
+	position: absolute;
+	top: 60px;
+	right: 20px;
 }
+
+
 
 
 #main {
@@ -176,6 +180,7 @@ h2, h3 {
 	top: 20px;
 	left: 70px;
 	width: 540px;
+	height: 304px;
 	position: absolute;
 	z-index: 1;
 }
@@ -254,13 +259,14 @@ h2, h3 {
 	.navbar {
 		margin: 0px !important;
 	}
-
 	#welcome-blurb {
 		padding-top: 0px;
 	}
-
 	#nabar-offset {
 		height: 0px;
+	}
+	#blurb .top-padding {
+		height: 80px;
 	}
 	#blurb h1 {
 		font-size: 20pt;
