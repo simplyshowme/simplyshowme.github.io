@@ -111,41 +111,15 @@ h2, h3 {
 	letter-spacing: -1px;
 }
 
-/* Adjust it for smaller sizes */
-@media (max-width: 767px) {
-	body {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-	#main {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.navbar {
-		margin: 0px !important;
-	}
 
-	#welcome-blurb {
-		padding-top: 0px;
-	}
-
-	#nabar-offset {
-		height: 0px;
-	}
-	#blurb h1 {
-		font-size: 20pt;
-	}
-}
-
-
-
+/* FEATURES */
 
 .features {
 	text-align: center;
 }
 
 .features img {
-	max-width: 240px;
+	max-width: 100%;
 }
 
 .features h2 {
@@ -154,10 +128,9 @@ h2, h3 {
 	padding: 0.5em 1em 0.5em 1em;
 	font-weight: 600;
 	line-height: 1.2em;
-	height: 2.5em;
 }
 .features p {
-	padding: 0em 3em 3em 3em;
+	padding: 0em 1em 3em 1em;
 }
 
 
@@ -199,9 +172,6 @@ h2, h3 {
 
 }
 
-/*#phone > * {
-}*/
-
 #phone video {
 	top: 20px;
 	left: 70px;
@@ -237,15 +207,16 @@ h2, h3 {
 }
 
 #description li {
-	padding-left: 100px;
+	padding-left: 25%;
 	position: relative;
 	min-height: 130px;
 	font-size: 12pt;
 }
 #description li img {
 	position: absolute;
-	left: 10px;
-	top: 0px;
+	left: 5px;
+	top: 5px;
+	width: 20%;
 }
 #description h3 {
 	margin: 0em;
@@ -266,4 +237,43 @@ h2, h3 {
 
 .lb-image{
 	max-width: inherit;
+}
+
+
+
+/* Adjust it for phones sizes */
+@media (max-width: 767px) {
+	body {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#main {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.navbar {
+		margin: 0px !important;
+	}
+
+	#welcome-blurb {
+		padding-top: 0px;
+	}
+
+	#nabar-offset {
+		height: 0px;
+	}
+	#blurb h1 {
+		font-size: 20pt;
+	}
+}
+
+/* iPad */
+@media (max-width: 979px) {
+	.features h2 {
+		font-size: 14pt;
+	}
+	.features p {
+		padding: 0 0 3em 0;
+	}
+
 }
